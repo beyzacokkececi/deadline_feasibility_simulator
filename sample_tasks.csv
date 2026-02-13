@@ -1,0 +1,16 @@
+task_name,estimate_md,deadline,priority,assigned_dev
+Authentication Module,5.0,2026-02-15,Highest,Ahmet
+Payment Gateway Integration,8.0,2026-02-20,Highest,Mehmet
+User Dashboard UI,6.5,2026-02-25,High,Ayşe
+API Rate Limiting,3.0,2026-02-18,High,Ahmet
+Database Migration Script,4.5,2026-02-22,Highest,Mehmet
+Email Notification System,5.5,2026-03-01,Medium,Ayşe
+Search Functionality,7.0,2026-02-28,High,Ahmet
+Admin Panel,9.0,2026-03-05,Medium,Mehmet
+Mobile App Sync,6.0,2026-02-27,Highest,Ayşe
+Performance Optimization,4.0,2026-03-03,High,Ahmet
+Security Audit Fixes,5.5,2026-02-24,Highest,Mehmet
+Analytics Dashboard,8.5,2026-03-10,Low,Ayşe
+Third-party Integration,4.5,2026-02-26,Medium,Ahmet
+Documentation Updates,2.5,2026-03-01,Low,Mehmet
+Testing Framework Setup,3.5,2026-02-23,High,Ayşe
