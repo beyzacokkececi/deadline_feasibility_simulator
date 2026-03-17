@@ -902,7 +902,7 @@ if st.session_state.manual_tasks_df is not None:
             if duplicate_orders.any():
                 problem_devs = duplicate_orders[duplicate_orders].index.tolist()
                 st.info(f"ℹ️ **Duplicate order numbers detected** for: {', '.join(problem_devs)}. Tasks with the same order execute by: deadline (earlier first) → task name (alphabetical).")
-        st.info("Release days are Mondays and Thursdays. So possible deadlines should be Feb 19, Feb 23, Feb 26, Mar 2, Mar 5, Mar 9, Mar 12, Mar 16, Mar 19, Mar 23, Mar 26, Mar 30, Apr 2, Apr 6, Apr 9")
+        st.info("Release days are Thursdays. So possible deadlines should be Mar 26, Apr 2, Apr 9, Apr 16, Apr 23, Apr 30")
         st.markdown("<hr>", unsafe_allow_html=True)
         
         # ================================================================
