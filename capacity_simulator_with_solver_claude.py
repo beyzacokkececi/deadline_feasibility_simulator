@@ -865,9 +865,6 @@ if st.session_state.manual_tasks_df is not None:
                 num_invalid = invalid_devs.sum()
                 validation_warnings.append(f"Reassigned {num_invalid} task(s) with invalid developers to {developer_names[0]}")
                 editable_data.loc[invalid_devs, 'assigned_dev'] = developer_names[0]
-                existing_orders = editable_data.loc[(editable_data['assigned_dev'] == developer_names[0]) & ~invalid_devs, 'dev_order']
-                max_order = int(existing_orders.max()) if not existing_orders.empty else 0
-                editable_data.loc[invalid_devs, 'dev_order'] = range(max_order + 1, max_order + 1 + num_invalid)
               
             
             # Validate order (must be >= 1)
